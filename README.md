@@ -22,7 +22,10 @@ var firstName: String = name[/"^[A-Za-z]+"]
 //find the Point object with the largest x value
 var maxPoint: Point = points.maxBy {$0.x}
 
-//create an array of arrays, each one of which holds all of the people who share the same first letter of their name. think of a contacts table
+/*
+ * from an array of users, create an array of arrays, each one of which
+ * holds all of the people who share the same first letter of their name. think of a contacts table
+ */
 users.groupBy({$0.name[0]}).sort({$0[0].name[0]}).map({$0.sortBy({u in u.name[0]})})
 ```
 
