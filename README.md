@@ -23,10 +23,10 @@ var firstName: String = name[/"^[A-Za-z]+"]
 var maxPoint: Point = points.maxBy {$0.x}
 
 /*
- * from an array of users, create an array of arrays, each one of which
+ * from an array of users, create an sorted array of sorted arrays, each one of which
  * holds all of the people who share the same first letter of their name. think of a contacts table
  */
-users.groupBy({$0.name[0]}).sort({$0[0].name[0]}).map({$0.sortBy({u in u.name[0]})})
+users.sortBy({$0.name}).partition({$0.name[0]})
 ```
 
 And so much more! Contributors welcome :)

@@ -1,0 +1,90 @@
+TSwuby
+v7
+r1
+cCheck dependencies
+cCompileSwift normal i386 com.apple.xcode.tools.swift.compiler
+
+CBuild AST from /Users/michaeleisel/Documents/Projects/Swuby/Swuby/___VARIABLE_classPrefix:identifier___AppDelegate.m
+r0
+
+CBuild AST from /Users/michaeleisel/Documents/Projects/Swuby/Swuby/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6361142c1c54b941^14e7142c1c54b941^---0#1#1#--18"Check dependencies36"57DA2A28-5BCA-48B4-8616-4477668358E5-
+
+CCompileAssetCatalog /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.app /Users/michaeleisel/Documents/Projects/Swuby/Swuby/Images.xcassets
+r0
+
+CCompileC Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/___VARIABLE_classPrefix:identifier___AppDelegate.o /Users/michaeleisel/Documents/Projects/Swuby/Swuby/___VARIABLE_classPrefix:identifier___AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/main.o /Users/michaeleisel/Documents/Projects/Swuby/Swuby/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileSwift normal i386 com.apple.xcode.tools.swift.compiler
+s424942636.080522
+e424942636.130693
+r0
+xCompileSwift
+xnormal
+xi386
+xcom.apple.xcode.tools.swift.compiler
+d/Users/michaeleisel/Documents/Projects/Swuby/Swuby/Array+Swuby.swift
+o/Users/michaeleisel/Documents/Projects/Swuby/Swuby/Array+Swuby.swift:17:13: error: could not find an overload for '<' that accepts the supplied arguments
+o                        if value < maxValue {
+o                           ~~~~~~^~~~~~~~~~
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Compile Swift source files61"CompileSwift normal i386 com.apple.xcode.tools.swift.compiler4faf142c1c54b941^6f80212c1c54b941^-244"/Users/michaeleisel/Documents/Projects/Swuby/Swuby/Array+Swuby.swift:17:13: error: could not find an overload for '<' that accepts the supplied arguments                        if value < maxValue {                           ~~~~~~^~~~~~~~~~1(36%IDEClangDiagnosticActivityLogMessage2@70"Could not find an overload for '<' that accepts the supplied arguments-424942636#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@75"file:///Users/michaeleisel/Documents/Projects/Swuby/Swuby/Array+Swuby.swift0000000000000000^16#12#16#12#0#0#1#20"Swift Compiler Error1(3@75"file:///Users/michaeleisel/Documents/Projects/Swuby/Swuby/Array+Swuby.swift0000000000000000^16#6#16#22#0#0#1#-0#0#1#-19%DVTDocumentLocation4@75"file:///Users/michaeleisel/Documents/Projects/Swuby/Swuby/Array+Swuby.swift0000000000000000^2635"CompileSwift normal i386 com.apple.xcode.tools.swift.compiler    cd /Users/michaeleisel/Documents/Projects/Swuby    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -target i386-apple-ios8.0 -module-name Swuby -O0 -sdk /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -g -module-cache-path /Users/michaeleisel/Library/Developer/Xcode/DerivedData/ModuleCache -I /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator -F /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator -parse-as-library -c -j8 /Users/michaeleisel/Documents/Projects/Swuby/Swuby/Array+Swuby.swift -output-file-map /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby-OutputFileMap.json -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby.swiftmodule -Xcc -iquote -Xcc /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Swuby-generated-files.hmap -Xcc -I/Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Swuby-own-target-headers.hmap -Xcc -I/Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Swuby-all-target-headers.hmap -Xcc -iquote -Xcc /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Swuby-project-headers.hmap -Xcc -I/Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/include -Xcc -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Xcc -I/Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources/i386 -Xcc -I/Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby-Swift.h36"FF3A0DAF-ECFC-47A2-B558-7C632A80C878-
+bB909DD14-42E4-4E1C-9E98-6F58362E11AC
+
+CCopyPlistFile /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.app/Swuby-Info.plist Swuby/Swuby-Info.plist
+r0
+
+CCopySwiftLibs /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.app
+r0
+
+CCpResource Swuby/Default-568h@2x.png Build/Products/Debug-iphonesimulator/Swuby.app/Default-568h@2x.png
+r0
+
+CCpResource Swuby/Default.png Build/Products/Debug-iphonesimulator/Swuby.app/Default.png
+r0
+
+CCpResource Swuby/Default@2x.png Build/Products/Debug-iphonesimulator/Swuby.app/Default@2x.png
+r0
+
+CCpResource Swuby/Swuby-Prefix.pch Build/Products/Debug-iphonesimulator/Swuby.app/Swuby-Prefix.pch
+r0
+
+CDitto /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources/Swuby-Swift.h /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby-Swift.h
+s424942143.380510
+e424942143.384808
+r1
+xDitto
+x/Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources/Swuby-Swift.h
+x/Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby-Swift.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Copy /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources/Swuby-Swift.h200"Ditto Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources/Swuby-Swift.h Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby-Swift.hde76613f1a54b941^d80e6a3f1a54b941^---0#0#1#-19%DVTDocumentLocation2@146"file:///Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources/Swuby-Swift.h0000000000000000^772"Ditto Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources/Swuby-Swift.h Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby-Swift.h    cd /Users/michaeleisel/Documents/Projects/Swuby    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby-Swift.h /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/DerivedSources/Swuby-Swift.h36"919E3DF9-5B8F-464B-A855-D843E70D581B-
+bB54C0DF5-1DBD-4C77-9967-3A53F74A2305
+
+CDitto /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.swiftmodule/i386.swiftmodule /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby.swiftmodule
+s424942143.385179
+e424942143.389244
+r1
+xDitto
+x/Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.swiftmodule/i386.swiftmodule
+x/Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby.swiftmodule
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection16"Copy swiftmodule181"Ditto Build/Products/Debug-iphonesimulator/Swuby.swiftmodule/i386.swiftmodule Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby.swiftmodule33a8623f1a54b941^0a136a3f1a54b941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.swiftmodule/i386.swiftmodule0000000000000000^734"Ditto Build/Products/Debug-iphonesimulator/Swuby.swiftmodule/i386.swiftmodule Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby.swiftmodule    cd /Users/michaeleisel/Documents/Projects/Swuby    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/michaeleisel/Documents/Projects/Swuby/Build/Intermediates/Swuby.build/Debug-iphonesimulator/Swuby.build/Objects-normal/i386/Swuby.swiftmodule /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.swiftmodule/i386.swiftmodule36"701F1A0E-BAC5-4CEF-B322-52AFE14C9CBE-
+bB54C0DF5-1DBD-4C77-9967-3A53F74A2305
+
+CGenerateDSYMFile /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.app.dSYM /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.app/Swuby
+r0
+
+CLd /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.app/Swuby normal i386
+r0
+
+CProcessInfoPlistFile /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.app/Info.plist /Users/michaeleisel/Documents/Projects/Swuby/Swuby/Info.plist
+r0
+
+CTouch /Users/michaeleisel/Documents/Projects/Swuby/Build/Products/Debug-iphonesimulator/Swuby.app
+r0
+
