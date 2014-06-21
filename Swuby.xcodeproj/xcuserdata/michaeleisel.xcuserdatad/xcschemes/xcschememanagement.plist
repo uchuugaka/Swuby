@@ -9,11 +9,14 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>SwubyTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+=======
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>

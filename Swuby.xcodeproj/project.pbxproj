@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		B333239F1955FB4E00844CF2 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333239E1955FB4E00844CF2 /* Main.swift */; };
 		B33323A11955FB6200844CF2 /* Int+SwubyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33323A01955FB6200844CF2 /* Int+SwubyTests.swift */; };
 		B33323A31955FB6E00844CF2 /* Array+SwubyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33323A21955FB6E00844CF2 /* Array+SwubyTests.swift */; };
@@ -14,15 +15,26 @@
 		B344B044195419D5001FB9A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344B043195419D5001FB9A1 /* UIKit.framework */; };
 		B344B046195419D5001FB9A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344B045195419D5001FB9A1 /* Foundation.framework */; };
 		B344B048195419D5001FB9A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344B047195419D5001FB9A1 /* CoreGraphics.framework */; };
+=======
+		B344B044195419D5001FB9A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344B043195419D5001FB9A1 /* UIKit.framework */; };
+		B344B046195419D5001FB9A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344B045195419D5001FB9A1 /* Foundation.framework */; };
+		B344B048195419D5001FB9A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B344B047195419D5001FB9A1 /* CoreGraphics.framework */; };
+		B344B04C195419D5001FB9A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B344B04B195419D5001FB9A1 /* main.m */; };
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 		B344B055195419D5001FB9A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B344B054195419D5001FB9A1 /* Default.png */; };
 		B344B057195419D5001FB9A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B344B056195419D5001FB9A1 /* Default@2x.png */; };
 		B344B059195419D5001FB9A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B344B058195419D5001FB9A1 /* Default-568h@2x.png */; };
 		B344B05E195419D5001FB9A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B344B05D195419D5001FB9A1 /* Images.xcassets */; };
+<<<<<<< HEAD
 		B344B06A195419D5001FB9A1 /* String+SwubyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344B069195419D5001FB9A1 /* String+SwubyTests.swift */; };
 		B344B07419541A3E001FB9A1 /* Array+Swuby.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344B07319541A3E001FB9A1 /* Array+Swuby.swift */; };
 		B344B07619542140001FB9A1 /* Int+Swuby.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344B07519542140001FB9A1 /* Int+Swuby.swift */; };
 		B344B07819542205001FB9A1 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344B07719542205001FB9A1 /* Regex.swift */; };
 		B37696CB195522BF00D49BEB /* String+Swuby.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37696CA195522BF00D49BEB /* String+Swuby.swift */; };
+=======
+		B344B06A195419D5001FB9A1 /* SwubyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344B069195419D5001FB9A1 /* SwubyTests.swift */; };
+		B344B07419541A3E001FB9A1 /* Array+Swuby.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344B07319541A3E001FB9A1 /* Array+Swuby.swift */; };
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		B333239E1955FB4E00844CF2 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		B33323A01955FB6200844CF2 /* Int+SwubyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+SwubyTests.swift"; sourceTree = "<group>"; };
 		B33323A21955FB6E00844CF2 /* Array+SwubyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+SwubyTests.swift"; sourceTree = "<group>"; };
 		B33323A41955FDE000844CF2 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+=======
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 		B344B040195419D5001FB9A1 /* Swuby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swuby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B344B043195419D5001FB9A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B344B045195419D5001FB9A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B344B047195419D5001FB9A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+<<<<<<< HEAD
+=======
+		B344B04B195419D5001FB9A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 		B344B054195419D5001FB9A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B344B056195419D5001FB9A1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B344B058195419D5001FB9A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -51,12 +70,17 @@
 		B344B05D195419D5001FB9A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B344B063195419D5001FB9A1 /* SwubyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwubyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B344B068195419D5001FB9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		B344B069195419D5001FB9A1 /* String+SwubyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SwubyTests.swift"; sourceTree = "<group>"; };
 		B344B07319541A3E001FB9A1 /* Array+Swuby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Swuby.swift"; sourceTree = "<group>"; };
 		B344B07519542140001FB9A1 /* Int+Swuby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Swuby.swift"; path = "../Int+Swuby.swift"; sourceTree = "<group>"; };
 		B344B07719542205001FB9A1 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		B37696CA195522BF00D49BEB /* String+Swuby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Swuby.swift"; sourceTree = "<group>"; };
 		B37696CC19552BF700D49BEB /* Swuby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swuby-Bridging-Header.h"; sourceTree = "<group>"; };
+=======
+		B344B069195419D5001FB9A1 /* SwubyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwubyTests.swift; sourceTree = "<group>"; };
+		B344B07319541A3E001FB9A1 /* Array+Swuby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Swuby.swift"; sourceTree = "<group>"; };
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +139,13 @@
 				B344B05D195419D5001FB9A1 /* Images.xcassets */,
 				B344B04A195419D5001FB9A1 /* Supporting Files */,
 				B344B07319541A3E001FB9A1 /* Array+Swuby.swift */,
+<<<<<<< HEAD
 				B344B07519542140001FB9A1 /* Int+Swuby.swift */,
 				B344B07719542205001FB9A1 /* Regex.swift */,
 				B37696CA195522BF00D49BEB /* String+Swuby.swift */,
 				B333239E1955FB4E00844CF2 /* Main.swift */,
+=======
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 			);
 			path = Swuby;
 			sourceTree = "<group>";
@@ -126,12 +153,20 @@
 		B344B04A195419D5001FB9A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				B344B054195419D5001FB9A1 /* Default.png */,
 				B33323A41955FDE000844CF2 /* main.c */,
 				B344B056195419D5001FB9A1 /* Default@2x.png */,
 				B344B058195419D5001FB9A1 /* Default-568h@2x.png */,
 				B344B05A195419D5001FB9A1 /* Info.plist */,
 				B37696CC19552BF700D49BEB /* Swuby-Bridging-Header.h */,
+=======
+				B344B04B195419D5001FB9A1 /* main.m */,
+				B344B054195419D5001FB9A1 /* Default.png */,
+				B344B056195419D5001FB9A1 /* Default@2x.png */,
+				B344B058195419D5001FB9A1 /* Default-568h@2x.png */,
+				B344B05A195419D5001FB9A1 /* Info.plist */,
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,9 +174,13 @@
 		B344B066195419D5001FB9A1 /* SwubyTests */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				B344B069195419D5001FB9A1 /* String+SwubyTests.swift */,
 				B33323A01955FB6200844CF2 /* Int+SwubyTests.swift */,
 				B33323A21955FB6E00844CF2 /* Array+SwubyTests.swift */,
+=======
+				B344B069195419D5001FB9A1 /* SwubyTests.swift */,
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 				B344B067195419D5001FB9A1 /* Supporting Files */,
 			);
 			path = SwubyTests;
@@ -255,12 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				B333239F1955FB4E00844CF2 /* Main.swift in Sources */,
 				B344B07419541A3E001FB9A1 /* Array+Swuby.swift in Sources */,
 				B33323A51955FDE000844CF2 /* main.c in Sources */,
 				B344B07819542205001FB9A1 /* Regex.swift in Sources */,
 				B37696CB195522BF00D49BEB /* String+Swuby.swift in Sources */,
 				B344B07619542140001FB9A1 /* Int+Swuby.swift in Sources */,
+=======
+				B344B07419541A3E001FB9A1 /* Array+Swuby.swift in Sources */,
+				B344B04C195419D5001FB9A1 /* main.m in Sources */,
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				B33323A11955FB6200844CF2 /* Int+SwubyTests.swift in Sources */,
 				B344B06A195419D5001FB9A1 /* String+SwubyTests.swift in Sources */,
 				B33323A31955FB6E00844CF2 /* Array+SwubyTests.swift in Sources */,
+=======
+				B344B06A195419D5001FB9A1 /* SwubyTests.swift in Sources */,
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +420,10 @@
 				INFOPLIST_FILE = Swuby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_OBJC_BRIDGING_HEADER = "Swuby/Swuby-Bridging-Header.h";
+=======
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -386,7 +437,10 @@
 				INFOPLIST_FILE = Swuby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_OBJC_BRIDGING_HEADER = "Swuby/Swuby-Bridging-Header.h";
+=======
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 			};
 			name = Release;
 		};
@@ -445,7 +499,10 @@
 				B344B06F195419D5001FB9A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 		};
 		B344B070195419D5001FB9A1 /* Build configuration list for PBXNativeTarget "SwubyTests" */ = {
 			isa = XCConfigurationList;
@@ -454,7 +511,10 @@
 				B344B072195419D5001FB9A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+>>>>>>> 2d22586ed7b1f2c27c372d0ffdcc745f8cf74d23
 		};
 /* End XCConfigurationList section */
 	};
