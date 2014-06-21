@@ -1,7 +1,7 @@
 # The Swuby (Swift + Ruby) Project
-### With Objective-C, we had a low-level language that behaved in many ways like Ruby, and now with Swift, we are even closer to the perfect blend of Ruby's flexibility and fast, reliable performance. However, what Swift is missing is a good set of APIs!
+#### Apple made a great language. But Apple has never been great at designing APIs. Let's shamelessly steal Ruby's!
 
-That's where Swuby comes in. By shamelessly copying all of Ruby's well thought-out APIs (or as many as possible), we can give Swift an impressive and versatile set of tools. Note that this wasn't nearly as feasible with Objective-C. However, Swift introducted 3 key Ruby-esque things:
+By taking all of Ruby's well thought-out APIs (or as many as possible), we can give Swift an impressive and versatile set of tools. Note that this wasn't nearly as feasible with Objective-C. However, Swift introducted 3 key Ruby-esque things:
 * Operator overloading and custom operators
 * Concise first-class functions (closures)
 * Primitives as objects (Int, Bool, etc.)
@@ -23,10 +23,10 @@ var firstName: String = name[/"^[A-Za-z]+"]
 var maxPoint: Point = points.maxBy {$0.x}
 
 /*
- * from an array of users, create an array of arrays, each one of which
+ * from an array of users, create an sorted array of sorted arrays, each one of which
  * holds all of the people who share the same first letter of their name. think of a contacts table
  */
-users.groupBy({$0.name[0]}).sort({$0[0].name[0]}).map({$0.sortBy({u in u.name[0]})})
+users.sortBy({$0.name}).partition({$0.name[0]})
 ```
 
 And so much more! Contributors welcome :)
