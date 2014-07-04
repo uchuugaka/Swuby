@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Swuby
+//  NextSwuby
 //
-//  Created by Michael Eisel on 6/20/14.
+//  Created by Michael Eisel on 7/2/14.
 //  Copyright (c) 2014 Michael Eisel. All rights reserved.
 //
 
@@ -40,7 +40,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func applicationWillTerminate(application: UIApplication) {
 		// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	}
-
-
 }
+
 

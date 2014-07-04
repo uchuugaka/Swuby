@@ -30,3 +30,5 @@ users.sortBy({$0.name}).partition({$0.name[0]})
 ```
 
 And so much more! Contributors welcome :)
+## Contributing - A great way to learn Swift
+Most of the methods have very simple logic but will teach you the ins and outs of the syntax. There's lots of code to be written, so you can pick the perfect spot for what you want to do. But before you go off writing code, make sure to pick something in the "To Do" section on Trello: https://trello.com/b/t2WyTK5M/tasks
